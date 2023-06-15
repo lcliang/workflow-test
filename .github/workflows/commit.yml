@@ -26,4 +26,5 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event"
       - uses: actions/checkout@v3
       - run: git log --oneline
+      - run: echo "GitHub Commit ID of last commit ${{ github.sha}}"
 
